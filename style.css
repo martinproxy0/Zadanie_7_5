@@ -1,7 +1,9 @@
 body {
-    margin-top: 50px;
-}
+  margin-top: 50px; }
+
 footer {
- 
-    color: #fff;
-}
+  color: #fff; }
+  footer .row {
+    padding: 20px; }
+
+/*# sourceMappingURL=style.css.map */
