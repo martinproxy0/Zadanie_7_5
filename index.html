@@ -8,19 +8,49 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">        
-        <header>
-            <nav class="container">
-                <a href="https://google.pl" target="_blank"><img src="http://via.placeholder.com/300x30" alt="Company Logo" title="Company Logo"></a>
-                <ul>
-                    <li><a href="#">Home2</a></li>
-                    <li><a href="#">Aboute</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    </div>
+    <header>
+        <nav class="nav navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                    <a class="navbar-brand" href="#nowhere"><img src="https://fakeimg.pl/100x20/?text=Company%20Logo" alt="Logo" title="Company Logo"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#nowhere" title="Lorum ipsum dolor sit amet">Lorem<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#nowhere" title="Lorum ipsum dolor sit amet">Lorem</a></li>
+                                <li><a href="#nowhere" title="Aliquam tincidunt mauris eu risus">Aliquam</a></li>
+                                <li><a href="#nowhere" title="Morbi in sem quis dui placerat ornare">Morbi</a></li>
+                                <li><a href="#nowhere" title="Praesent dapibus, neque id cursus faucibus">Praesent</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#nowhere" title="Morbi in sem quis dui placerat ornare">Morbi</a></li>
+                        <li><a href="#nowhere" title="Praesent dapibus, neque id cursus faucibus">Praesent</a></li>
+                        <li><a href="#nowhere" title="Pellentesque fermentum dolor">Pellentesque</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <form class="navbar-form navbar-right" role="search">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </li>
+                        <li><a href="#form"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
     <div class="container">
         <div class="page-header">
         <h1>Doom And Gloom<small> The Rolling Stones</small></h1>
