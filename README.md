@@ -1,5 +1,7 @@
-# KOD_7_3_Z
-Zadanie 7.3 Strona z tekstem piosenki
+# Zadanie 7.5
+Zadanie 7.5 Strona z tekstem piosenki
+
+W nowym repozytorium
 
 Git page 
-  https://martinproxy0.github.io/KOD_7_3_Z/
+  https://martinproxy0.github.io/Zadanie_7_5/
